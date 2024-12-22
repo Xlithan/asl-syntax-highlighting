@@ -1,0 +1,42 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+            "scope": "meta.tag.asl",
+            "settings": {
+                "foreground": "#808080"  // Gray for content inside < >
+            }
+            },
+            {
+            "scope": "string.quoted.double.tag.asl",
+            "settings": {
+                "foreground": "#D16D6D"  // Pale red for content inside < " ">
+            }
+            },
+            {
+            "scope": "keyword.control.asl",
+            "settings": {
+                "foreground": "#569CD6"  // Blue for control keywords like 'startscript', 'if', etc.
+            }
+            },
+            {
+            "scope": "keyword.other.asl",
+            "settings": {
+                "foreground": "#4EC9B0"  // Light blue for keywords like 'game', 'object', etc.
+            }
+            },
+            {
+            "scope": "variable.parameter.asl",
+            "settings": {
+                "foreground": "#9CDCFE"  // Light blue for variables and parameters
+            }
+            },
+            {
+            "scope": "constant.numeric.asl",
+            "settings": {
+                "foreground": "#B5CEA8"  // Light green for numbers
+            }
+            }
+        ]
+    }
+  }  
