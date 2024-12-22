@@ -2,7 +2,7 @@
   "name": "quest-asl",
   "displayName": "Quest ASL",
   "description": "Syntax highlighting for Quest ASL and ASLX files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "DraigNETStudios",
   "repository": {
     "type": "git",
