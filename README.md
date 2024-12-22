@@ -54,11 +54,11 @@ This extension is open-source and available under the [MIT License](LICENSE).
 
 ## Issues
 
-If you encounter any issues, please feel free to [create an issue](https://github.com/xlithan/asl-syntax-highlighting/issues) on GitHub.
+If you encounter any issues, please feel free to [create an issue](https://github.com/Xlithan/asl-syntax-highlighting/issues) on GitHub.
 
 ## Publisher
 
-This extension is published by [Your Name](https://github.com/xlithan).
+This extension is published by [Your Name](https://github.com/Xlithan).
 
 ---
 

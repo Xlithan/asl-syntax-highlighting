@@ -1,9 +1,9 @@
 {
-  "name": "adventure-script-language",
-  "displayName": "Adventure Script Language",
-  "description": "Syntax highlighting for Quest 5 ASL and ASLX files",
+  "name": "quest-asl",
+  "displayName": "Quest ASL",
+  "description": "Syntax highlighting for Quest ASL and ASLX files",
   "version": "1.0.0",
-  "publisher": "DraigNET Studios",
+  "publisher": "DraigNETStudios",
   "repository": {
     "type": "git",
     "url": "https://github.com/xlithan/adventure-script-language"
