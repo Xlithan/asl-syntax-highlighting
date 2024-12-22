@@ -4,6 +4,7 @@
   "description": "Syntax highlighting for Quest ASL and ASLX files",
   "version": "1.0.2",
   "publisher": "DraigNETStudios",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Xlithan/asl-syntax-highlighting"
