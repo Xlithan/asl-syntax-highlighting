@@ -1,0 +1,49 @@
+{
+	"scopeName": "source.aslx",
+	"patterns": [
+	  {
+		"name": "comment.line.aslx",
+		"match": "'[^']*"
+	  },
+	  {
+		"name": "keyword.control.aslx",
+		"match": "\\b(startscript|endscript|command|define|if|else|for|each|set|msg|move|disconnect|exec|property|timeron|timeroff|interval|action|inherit|pattern)\\b"
+	  },
+	  {
+		"name": "keyword.other.aslx",
+		"match": "\\b(game|object|verb|room|text|include)\\b"
+	  },
+	  {
+		"name": "constant.numeric.aslx",
+		"match": "\\b[0-9]+\\b"
+	  },
+	  {
+		"name": "string.quoted.double.aslx",
+		"match": "\"([^\"]*)\""
+	  },
+	  {
+		"name": "variable.parameter.aslx",
+		"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+	  },
+	  {
+		"name": "punctuation.definition.tag.open.aslx",
+		"match": "<\\w+"
+	  },
+	  {
+		"name": "punctuation.definition.tag.close.aslx",
+		"match": "</\\w+"
+	  },
+	  {
+		"name": "entity.name.tag.aslx",
+		"match": "<(\\w+)"
+	  },
+	  {
+		"name": "entity.other.attribute-name.aslx",
+		"match": "\\b([a-zA-Z_][a-zA-Z0-9_-]*)\\b(?=\\s*=)"
+	  },
+	  {
+		"name": "string.quoted.double.attribute-value.aslx",
+		"match": "(?<=\\s=\\s\")[^\"]*(?=\")"
+	  }
+	]
+  }  

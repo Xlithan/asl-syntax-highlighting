@@ -1,0 +1,53 @@
+{
+  "name": "adventure-script-language",
+  "displayName": "Adventure Script Language",
+  "description": "Syntax highlighting for Quest 5 ASL and ASLX files",
+  "version": "1.0.0",
+  "publisher": "DraigNET Studios",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlithan/adventure-script-language"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "asl",
+        "aliases": ["Quest ASL", "asl"],
+        "extensions": [".asl"],
+        "configuration": "./language-configuration.json",
+        "tmScope": "source.asl",
+        "path": "./syntaxes/asl.tmLanguage.json"
+      },
+      {
+        "id": "aslx",
+        "aliases": ["Quest ASLX", "aslx"],
+        "extensions": [".aslx"],
+        "configuration": "./language-configuration.json",
+        "tmScope": "source.aslx",
+        "path": "./syntaxes/aslx.tmLanguage.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "asl",
+        "scopeName": "source.asl",
+        "path": "./syntaxes/asl.tmLanguage.json"
+      },
+      {
+        "language": "aslx",
+        "scopeName": "source.aslx",
+        "path": "./syntaxes/aslx.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode": "^1.60.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"scopeName": "source.asl",
+	"patterns": [
+	  {
+		"name": "comment.line.asl",
+		"match": "'[^']*"
+	  },
+	  {
+		"name": "keyword.control.asl",
+		"match": "\\b(startscript|endscript|command|define|if|else|for|each|set|msg|move|disconnect|exec|property|timeron|timeroff|interval|action)\\b"
+	  },
+	  {
+		"name": "keyword.other.asl",
+		"match": "\\b(game|object|verb|room|text|include)\\b"
+	  },
+	  {
+		"name": "constant.numeric.asl",
+		"match": "\\b[0-9]+\\b"
+	  },
+	  {
+		"name": "string.quoted.double.asl",
+		"match": "\"([^\"]*)\""
+	  },
+	  {
+		"name": "variable.parameter.asl",
+		"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+	  },
+	  {
+		"name": "punctuation.definition.tag.open.asl",
+		"match": "<\\w+"
+	  },
+	  {
+		"name": "punctuation.definition.tag.close.asl",
+		"match": "</\\w+"
+	  },
+	  {
+		"name": "entity.name.tag.asl",
+		"match": "<(\\w+)"
+	  },
+	  {
+		"name": "entity.other.attribute-name.asl",
+		"match": "\\b([a-zA-Z_][a-zA-Z0-9_-]*)\\b(?=\\s*=)"
+	  },
+	  {
+		"name": "string.quoted.double.attribute-value.asl",
+		"match": "(?<=\\s=\\s\")[^\"]*(?=\")"
+	  }
+	]
+  }  
