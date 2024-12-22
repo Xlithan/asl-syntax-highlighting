@@ -1,6 +1,6 @@
-# Quest Scripting Language Syntax Highlighting
+# Quest ASL Syntax Highlighting
 
-This extension provides syntax highlighting for the **Quest 5 scripting language** (`.asl` and `.aslx` files). Quest is a text-based game engine used to create interactive fiction games, and this extension adds support for its scripting language inside Visual Studio Code.
+This extension provides syntax highlighting for the **Quest Adventure Script Language** (`.asl` and `.aslx` files). Quest is a text-based game engine used to create interactive fiction games, and this extension adds support for its scripting language inside Visual Studio Code.
 
 ## Features
 
@@ -13,7 +13,7 @@ This extension provides syntax highlighting for the **Quest 5 scripting language
 
 ### Visual Studio Code Marketplace
 
-1. Open [Quest Scripting Language on the VS Code Marketplace](https://marketplace.visualstudio.com/).
+1. Open [Adventure Script Language on the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=DraigNETStudios.quest-asl).
 2. Click **Install** to install the extension.
 
 ### Manual Installation
@@ -58,8 +58,8 @@ If you encounter any issues, please feel free to [create an issue](https://githu
 
 ## Publisher
 
-This extension is published by [Your Name](https://github.com/Xlithan).
+This extension is published by [DraigNET Studios](https://github.com/Xlithan).
 
 ---
 
-Thank you for using the **Adventure Script Language Syntax Highlighting** extension! We hope it enhances your Quest game development experience in Visual Studio Code.
+Thank you for using the **Quest ASL Syntax Highlighting** extension! We hope it enhances your Quest game development experience in Visual Studio Code.
