@@ -1,37 +1,51 @@
 {
-	"scopeName": "source.asl",
-	"patterns": [
-	  {
-		"name": "comment.line.asl",
-		"match": "'[^']*"
-	  },
-	  {
-		"name": "keyword.control.asl",
-		"match": "\\b(startscript|endscript|command|define|if|else|for|each|set|msg|move|disconnect|exec|property|timeron|timeroff|interval|action)\\b"
-	  },
-	  {
-		"name": "keyword.other.asl",
-		"match": "\\b(game|object|verb|room|text|include)\\b"
-	  },
-	  {
-		"name": "constant.numeric.asl",
-		"match": "\\b[0-9]+\\b"
-	  },
-	  {
-		"name": "string.quoted.double.asl",
-		"match": "\"([^\"]*)\""
-	  },
-	  {
-		"name": "variable.parameter.asl",
-		"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
-	  },
-	  {
-		"name": "meta.tag.asl",
-		"match": "<[^>]*>"
-	  },
-	  {
-		"name": "string.quoted.double.tag.asl",
-		"match": "<\"([^\"]*)\">"
-	  }
-	]
-  }  
+  "scopeName": "source.asl",
+  "patterns": [
+    {
+      "name": "comment.line.asl",
+      "match": "'.*$"
+    },
+    {
+      "name": "comment.block.asl",
+      "begin": "define\\s+text",
+      "end": "end\\s+define"
+    },
+    {
+      "name": "string.quoted.angle.asl",
+      "begin": "<",
+      "end": ">"
+    },
+    {
+      "name": "string.quoted.double.asl",
+      "match": "\"([^\"]*)\""
+    },
+    {
+      "name": "meta.preprocessor.asl",
+      "match": "\\b(!include|!addto|!asl-version)\\b"
+    },
+    {
+      "name": "keyword.declaration.asl",
+      "match": "\\b(define|game|procedure|room|object|character|text|selection|timer|function|synonyms|end)\\b"
+    },
+    {
+      "name": "keyword.other.asl",
+      "match": "\\b(asl-version|game|version|author|copyright|info|start|prefix|look|out|gender|speak|take|alias|place|east|north|west|south|give|command|use|hidden|script|font|default|fontname|fontsize|startscript|nointro|indescription|description|error|beforeturn|afterturn|invisible|nodebug|suffix|startin|northeast|northwest|southeast|southwest|items|examine|detail|drop|everywhere|nowhere|on|anything|article|gain|properties|type|action|displaytype|override|enabled|disabled|variable|value|display|nozero|onchange)\\b"
+    },
+    {
+      "name": "keyword.control.asl",
+      "match": "\\b(do|if|got|then|else|has|say|playwav|lose|msg|not|playerlose|playerwin|ask|goto|set|show|choice|choose|is|setstring|displaytext|exec|pause|clear|debug|enter|mailto|and|or|outputoff|outputon|here|playmidi|drop|helpmsg|helpdisplaytext|helpclear|helpclose|setvar|for|hide|show|move|conceal|reveal|numeric|string|collectable|property|create|exit|doaction|close|each|in|repeat|while|until|timeron|timeroff|stop|panes|on|off)\\b"
+    },
+    {
+      "name": "keyword.operator.asl",
+      "match": "[\\+]"
+    },
+    {
+      "name": "constant.numeric.asl",
+      "match": "\\b[0-9]+\\b"
+    },
+    {
+      "name": "variable.other.asl",
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+    }
+  ]
+}
