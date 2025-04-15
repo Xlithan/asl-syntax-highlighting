@@ -6,11 +6,6 @@
       "match": "'.*$"
     },
     {
-      "name": "comment.block.asl",
-      "begin": "define\\s+text",
-      "end": "end\\s+define"
-    },
-    {
       "name": "string.quoted.angle.asl",
       "begin": "<",
       "end": ">"
@@ -29,11 +24,11 @@
     },
     {
       "name": "keyword.other.asl",
-      "match": "\\b(asl-version|game|version|author|copyright|info|start|prefix|look|out|gender|speak|take|alias|place|east|north|west|south|give|command|use|hidden|script|font|default|fontname|fontsize|startscript|nointro|indescription|description|error|beforeturn|afterturn|invisible|nodebug|suffix|startin|northeast|northwest|southeast|southwest|items|examine|detail|drop|everywhere|nowhere|on|anything|article|gain|properties|type|action|displaytype|override|enabled|disabled|variable|value|display|nozero|onchange)\\b"
+      "match": "\\b(asl-version|game|version|author|copyright|info|start|prefix|look|out|gender|speak|take|alias|place|east|north|west|south|give|command|use|hidden|script|font|default|fontname|fontsize|startscript|(player startscript)|nointro|indescription|description|error|beforeturn|afterturn|invisible|nodebug|suffix|startin|northeast|northwest|southeast|southwest|items|examine|detail|drop|everywhere|nowhere|on|anything|article|gain|properties|type|action|displaytype|override|enabled|disabled|variable|value|display|nozero|onchange|gametype|disconnect)\\b"
     },
     {
       "name": "keyword.control.asl",
-      "match": "\\b(do|if|got|then|else|has|say|playwav|lose|msg|not|playerlose|playerwin|ask|goto|set|show|choice|choose|is|setstring|displaytext|exec|pause|clear|debug|enter|mailto|and|or|outputoff|outputon|here|playmidi|drop|helpmsg|helpdisplaytext|helpclear|helpclose|setvar|for|hide|show|move|conceal|reveal|numeric|string|collectable|property|create|exit|doaction|close|each|in|repeat|while|until|timeron|timeroff|stop|panes|on|off)\\b"
+      "match": "\\b(do|if|got|then|else|has|say|playwav|lose|msg|msgto|not|playerlose|playerwin|ask|goto|set|show|choice|choose|is|setstring|displaytext|exec|pause|clear|debug|enter|mailto|and|or|outputoff|outputon|here|playmidi|drop|helpmsg|helpdisplaytext|helpclear|helpclose|setvar|for|hide|show|move|conceal|reveal|numeric|string|collectable|property|create|exit|doaction|close|each|in|repeat|while|until|timeron|timeroff|stop|panes|on|off|mutliplayer|login|register|abbreviations|verb|down|alt)\\b"
     },
     {
       "name": "keyword.operator.asl",
