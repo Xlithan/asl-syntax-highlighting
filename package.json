@@ -2,7 +2,7 @@
   "name": "quest-asl",
   "displayName": "Quest ASL",
   "description": "Syntax highlighting for Quest ASL and ASLX files",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "DraigNETStudios",
   "icon": "images/icon.png",
   "repository": {
@@ -31,7 +31,7 @@
         "aliases": ["Quest ASLX", "aslx"],
         "extensions": [".aslx"],
         "configuration": "./language-configuration.json",
-        "tmScope": "source.aslx",
+        "tmScope": "text.xml",
         "path": "./syntaxes/aslx.tmLanguage.json"
       }
     ],
@@ -43,12 +43,12 @@
       },
       {
         "language": "aslx",
-        "scopeName": "source.aslx",
+        "scopeName": "text.xml",
         "path": "./syntaxes/aslx.tmLanguage.json"
       }
     ]
   },
   "devDependencies": {
-    "vscode": "^1.60.0"
+    "@types/vscode": "^1.60.0"
   }
 }
