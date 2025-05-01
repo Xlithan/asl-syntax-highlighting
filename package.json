@@ -2,7 +2,7 @@
   "name": "quest-asl",
   "displayName": "Quest ASL",
   "description": "Syntax highlighting for Quest ASL and ASLX files",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "DraigNETStudios",
   "icon": "images/icon.png",
   "repository": {
@@ -27,12 +27,8 @@
         "path": "./syntaxes/asl.tmLanguage.json"
       },
       {
-        "id": "aslx",
-        "aliases": ["Quest ASLX", "aslx"],
-        "extensions": [".aslx"],
-        "configuration": "./language-configuration.json",
-        "tmScope": "text.xml",
-        "path": "./syntaxes/aslx.tmLanguage.json"
+        "id": "xml",
+        "extensions": [".aslx"]
       }
     ],
     "grammars": [
@@ -42,9 +38,13 @@
         "path": "./syntaxes/asl.tmLanguage.json"
       },
       {
-        "language": "aslx",
-        "scopeName": "text.xml",
-        "path": "./syntaxes/aslx.tmLanguage.json"
+        "contentName": "text.xml",
+        "scopeName": "text.xml.aslx", 
+        "path": "./syntaxes/aslx.tmLanguage.json",
+        "injectTo": ["text.xml"],
+        "embeddedLanguages": {
+          "text.xml": "xml"
+        }
       }
     ]
   },
