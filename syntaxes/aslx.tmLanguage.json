@@ -1,5 +1,8 @@
 {
-    "scopeName": "text.xml",
+    "scopeName": "text.xml.aslx",
+    "name": "ASLX",
+    "fileTypes": ["aslx"],
+    "firstLineMatch": "<\\?xml|<asl|<!--",
     "patterns": [
         {
             "include": "text.xml"
